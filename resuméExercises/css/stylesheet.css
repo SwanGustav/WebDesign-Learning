@@ -1,0 +1,83 @@
+body{
+    font-family: verdana; font-size:110%; background-color: lightcyan; 
+    display: flex; flex-direction: column;
+}
+header{
+    background-color: black;text-align: center;justify-content: center; 
+    margin-top: -10px; margin-left: -10px; margin-right: -10px; margin-bottom: 10px;
+}
+main {display: flex; flex-direction: row; 
+    overflow: unset;
+}
+footer {
+    background-color: black; text-align: center; 
+    margin-left: -10px; margin-right: -10px; margin-bottom: -60px;
+}
+
+/* other selectors */
+
+h1 {color: white;}
+h2:hover {color:red}
+h2 {
+    font-family: 'verdana'; font-size: 30px; background-color: aquamarine; color: green; 
+    margin: 0px; padding: 10px; border-style: inset; border-color: black; 
+}
+h3 {padding: 10px;}
+p {padding: 10px;}
+li {padding-top: 10px; padding-bottom: 10px;}
+
+/* class and id selectors */
+
+/* I added a margin-top to the profile photo so that it is more distinctive and not merging with the top of the webpage */
+#profilePhoto{
+    width: 16%; border-radius: 40%; border: 3px solid white; 
+    margin-top: 10px;
+}
+
+.heading{font-family: 'verdana'; font-size: 120%;
+background: url(/resuméExercises/imagesForResuméExercises/contactDetailsBackground.jpg);
+background-size: cover;}
+
+/* padding added to introductory text used to make header stand out and separate when first opening this webpage. 
+The use of % instead of px ensured the text remained justified and neat and readable when the webpage window is made smaller.
+*/
+#introduction1 {color: white; padding-bottom: 30px;}
+#introduction2 {
+    color: white; text-align: justify; font-size: medium; 
+    padding-left: 10%; padding-right: 10%; padding-bottom: 100px;
+}
+
+#sidebar{width:10%; height: 10%;}
+.nav-menu{
+    list-style-type: none; 
+    padding: 10px; margin: 0; border-color: black;
+}
+
+#education {margin-top: 0px;}
+.mySkillsAndInterests {
+    list-style-type: none; padding: 10px; margin: 0;
+}
+#myContactDetails {color: white;}
+
+/* The two icons were not of similar size so I played with values to make them look the same size */
+#gmailIcon {padding: 9px; width: 5%;}
+#linkedInIcon {width: 4.2%; padding-bottom: 7px;}
+
+/* I added a back to top bottom that stays fixed at the bottom-left corner - 
+I did not want to move it with the page, it makes the nav-menu unreadable then, 
+because it hovers over it */
+#toTop {
+    text-decoration: none; width: fit-content; 
+    background-color: var(--dark-blue);
+    color: red; font-size: 14px; font-weight: normal;
+    border-radius: 20px; padding-top: 30px;
+  }
+
+/* removed the icons' hyperlink underlining */
+.iconLink {text-decoration: none;}
+
+/* I ensured the links move smoothly to their destination within the page with the CSS declaration below */
+html {scroll-behavior: smooth;}
+
+
+
