@@ -35,7 +35,7 @@ li {padding-top: 10px; padding-bottom: 10px;}
 }
 
 .heading{font-family: 'verdana'; font-size: 120%;
-background: url(/resuméExercises/imagesForResuméExercises/contactDetailsBackground.jpg);
+background: cyan url(/resuméExercises/imagesForResuméExercises/contactDetailsBackground.jpg);
 background-size: cover;}
 
 /* padding added to introductory text used to make header stand out and separate when first opening this webpage. 
