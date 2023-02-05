@@ -3,7 +3,7 @@ body{
     display: flex; flex-direction: column;
 }
 header{
-    background-color: black;text-align: center;justify-content: center; 
+    background-color: cyan;text-align: center;justify-content: center; 
     margin-top: -10px; margin-left: -10px; margin-right: -10px; margin-bottom: 10px;
 }
 main {display: flex; flex-direction: row; 
@@ -50,7 +50,7 @@ The use of % instead of px ensured the text remained justified and neat and read
 #sidebar{width:10%; height: 10%;}
 .nav-menu{
     list-style-type: none; 
-    padding: 10px; margin: 0; border-color: black;
+    padding: 10px; margin: auto; border-color: black;
 }
 
 #education {margin-top: 0px;}
@@ -78,6 +78,22 @@ because it hovers over it */
 
 /* I ensured the links move smoothly to their destination within the page with the CSS declaration below */
 html {scroll-behavior: smooth;}
+
+@media only screen and (min-width: 600px){
+    body {background-color: cyan;}
+}
+
+@media only screen and (min-width: 768px){
+    body {background-color: deepskyblue;}
+}
+
+@media only screen and (min-width: 992px){
+    body {background-color: lightskyblue;}
+}
+
+@media only screen and (min-width: 1200px){
+    body {background-color: lightblue}
+}
 
 
 
